@@ -19,3 +19,4 @@ matriks = np.array([[1,1],
                 [4,4]])
 #mean to search mean in data set 
 mean_data = np.mean(data, axis=0)
+matriks.reshape(*matriks.shape, 1) #nambah 1 dimensi
